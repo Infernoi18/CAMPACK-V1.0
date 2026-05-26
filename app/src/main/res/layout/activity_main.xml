@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:text="CAMERA APP VERSION 1.0"
+        android:textSize="25sp"
+        android:textColor="#2E0C49"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permission Status: Not Granted"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/request_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grant Camera Permission"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/capture_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Camera &amp; Capture"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/show_base64_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Base64"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:background="#DDDDDD"
+        tools:src="@tools:sample/avatars"/>
+
+</LinearLayout>
