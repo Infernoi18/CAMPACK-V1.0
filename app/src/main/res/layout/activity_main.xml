@@ -13,7 +13,7 @@
         android:id="@+id/title_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-    android:text="CAMERA APP VERSION 1.0"
+    android:text="CAMPACK VERSION 1.0"
         android:textSize="25sp"
         android:textColor="#2E0C49"
         android:textStyle="bold"
